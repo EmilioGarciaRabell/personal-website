@@ -5,3 +5,7 @@
 @theme {
   --font-sans: 'Pilcrow Rounded', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}

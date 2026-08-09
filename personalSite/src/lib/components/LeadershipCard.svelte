@@ -6,11 +6,11 @@
     <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
         
         <!-- Left: Image / Logo Box -->
-        <div class="w-32 h-32 sm:w-36 sm:h-36 bg-gray-100 rounded-lg border-2 border-black overflow-hidden shrink-0 flex items-center justify-center p-2">
+        <div class="w-32 h-32 sm:w-36 sm:h-36 bg-gray-100 rounded-lg border-2 border-black overflow-hidden shrink-0">
             <img 
                 src={item.image} 
                 alt={item.organization} 
-                class="w-full h-full object-contain"
+                class="w-full h-full object-cover"
             />
         </div>
 
