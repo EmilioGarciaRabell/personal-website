@@ -44,6 +44,16 @@ export const projects = [
         link: 'https://github.com/EmilioGarciaRabell/sleeper'
     },
     {
+        id: 'informate.pe',
+        title: 'Informate.pe',
+        date: 'December 2026',
+        description: 'Created an informational hub for the 2026 peruvian elections, automated the creation of 30+ candidate profiles including their political history, background summary, and social media sentiment analysis. Utilized LLMs to summarize and standardize the information across all candidates.',
+        image: getProjectImages('informate')[0],
+        images: getProjectImages('informate'),
+        tags: ['Python', 'Flask', 'LLMs', 'React', 'Web Scraping', 'Data Analysis', 'PostgreSQL'],
+        link: 'https://github.com/EmilioGarciaRabell/Candidate-Tracker-Peru.git'
+    },
+    {
         id: 'smartMirror',
         title: 'SHPE Smart Mirror',
         date: 'May 2025',
