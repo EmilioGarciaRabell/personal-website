@@ -5,10 +5,10 @@ import shpeRit from '$lib/images/leadership/shpe-rit.jpeg';
 export const leadership = [
     {
         id: 'openctf',
-        role: 'Co-Founder & Lead Developer',
+        role: 'Co-Founder, Technical & Business Developer',
         organization: 'Bernard Kozel Startup Program at RIT',
         date: 'May 2026 – August 2026',
-        description: 'Selected among 7 teams to receive funding and mentorship to develop OpenCTF, succesfully co-leading a team of 5, and completing 80+ costumer interviews to validate the product-market fit of the product.',
+        description: 'Selected among 7 teams to receive funding and mentorship to develop OpenCTF, succesfully co-leading a team of 5, and completing 80+ customer interviews to validate the product-market fit of the product.',
         image: openTeam
     },
     {
@@ -19,5 +19,12 @@ export const leadership = [
         description: 'Directed academic workshops, peer tutoring initiatives, and career preparation sessions for engineering students, fostering professional growth and technical retention among the hispanic comunity at RIT.\nSupported 10+ stuents to attend the SHPE national conference every year, providing a unique leadership opportunity and networking experience. ',
                     
         image: shpeRit
+    },
+    {
+        id: 'technopunch',
+        role: 'Founder & Tutor',
+        organization: 'Technopunch',
+        date: 'January 2020 - August 2022',
+        description: 'Founded Technopunch Academy, providing hands-on education in programming and project development using Python, Arduino, and 3D printing, offering technical and problem solving skills to every student. \nMentored over 15 students, guiding them through technical projects and helping them understand the concepts involved.'
     }
 ];
