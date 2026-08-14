@@ -1,6 +1,7 @@
 
 import openTeam from '$lib/images/leadership/openteam.jpg';
 import shpeRit from '$lib/images/leadership/shpe-rit.jpeg';
+import technopunch from '$lib/images/leadership/technopunch.jpg';
 
 export const leadership = [
     {
@@ -25,6 +26,14 @@ export const leadership = [
         role: 'Founder & Tutor',
         organization: 'Technopunch',
         date: 'January 2020 - August 2022',
-        description: 'Founded Technopunch Academy, providing hands-on education in programming and project development using Python, Arduino, and 3D printing, offering technical and problem solving skills to every student. \nMentored over 15 students, guiding them through technical projects and helping them understand the concepts involved.'
+        description: 'Founded Technopunch Academy, providing hands-on education in programming and project development using Python, Arduino, and 3D printing, offering technical and problem solving skills to every student. \nMentored over 15 students, guiding them through technical projects and helping them understand the concepts involved.',
+        image: technopunch
+    },
+    {
+        id: 'robotics',
+        role: 'Team Leader & Programmer',
+        organization: 'Highscool Robotics Team',
+        date: '2016 - 2022',
+        description: 'Led a team of 3 across international and national competitions, in Mexico, United Kingdom, Latin America, and the United States. \nWon first palce in the mexican World Educational Robotics (WER) nationals, and first place in the english WER  '
     }
 ];

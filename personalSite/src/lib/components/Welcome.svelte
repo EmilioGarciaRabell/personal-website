@@ -72,7 +72,7 @@
             </p>
             
             <p class="text-lg text-gray-700 leading-relaxed">
-                I am currently seeking a 2027 full-time role in any of the disciplines mentioned above. 
+                I am currently seeking 2027 full-time roles in any of the disciplines mentioned above. 
                 Please feel free to reach out to me via email or LinkedIn if you would like to connect!
             </p>
         </div>

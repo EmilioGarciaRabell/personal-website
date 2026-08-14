@@ -62,6 +62,16 @@
 				<Icon icon="lucide:arrow-up" class="w-4 h-4" />
 			</a>
 
+			<!-- LLM descriptor file (for automated parsers) -->
+			<a
+				href="/llm.txt"
+				class="text-sm font-medium hover:text-[#ff5722] transition-colors"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				llm.txt
+			</a>
+
 			<!-- Right: Social Links -->
 			<div class="flex items-center gap-3">
 				<a 

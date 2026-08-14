@@ -1,0 +1,28 @@
+{
+  "llm.txt_version": "1.0",
+  "site": {
+    "title": "Emilio Garcia",
+    "description": "Personal site for Emilio Garcia — resume, projects, leadership, skills.",
+    "base_url": "/"
+  },
+  "author": {
+    "name": "Emilio Garcia",
+    "email": "eg5760@rit.edu"
+  },
+  "sections": [
+    {"id": "welcome", "selector": "#welcome", "description": "Intro / hero content"},
+    {"id": "experience", "selector": "#experience", "description": "Work experience list (structured in src/lib/resumeData/experience.js)"},
+    {"id": "projects", "selector": "#projects", "description": "Project summaries (structured in src/lib/resumeData/projects.js)"},
+    {"id": "leadership", "selector": "#leadership", "description": "Leadership roles (structured in src/lib/resumeData/leadership.js)"}
+  ],
+  "data_sources": {
+    "resume_data_dir": "src/lib/resumeData/",
+    "experience_js": "src/lib/resumeData/experience.js",
+    "projects_js": "src/lib/resumeData/projects.js",
+    "leadership_js": "src/lib/resumeData/leadership.js"
+  },
+  "static_files": ["/llm.txt", "/robots.txt"],
+  "license": "LICENSE (project root)",
+  "copyright": "© 2026 Emilio Garcia",
+  "parsing_instructions": "Prefer extracting structured data from the JS files listed in data_sources. If consuming rendered HTML, use the section selectors above. Return JSON objects with keys: section, items (array), source(file or selector). Do not expose private data beyond contact/email for legitimate contact purposes. Respect the site license."
+}

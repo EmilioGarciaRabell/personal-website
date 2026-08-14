@@ -9,7 +9,7 @@
             <p class="text-xl  text-[#ff5722]">{job.company} - {job.location}</p>
         </div>
         <div class="inline-block bg-[#9aa6b2]/20 rounded-md px-2.5 py-1 text-xs font-mono text-gray-900 font-semibold mt-1 md:mt-0">
-            <p>{job.date}</p>
+            <p class="text-center">{job.date}</p>
         </div>
     </div>
 
