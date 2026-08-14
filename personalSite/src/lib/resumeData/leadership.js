@@ -2,7 +2,7 @@
 import openTeam from '$lib/images/leadership/openteam.jpg';
 import shpeRit from '$lib/images/leadership/shpe-rit.jpeg';
 import technopunch from '$lib/images/leadership/technopunch.jpg';
-
+import robotics from '$lib/images/leadership/robotics.jpg';
 export const leadership = [
     {
         id: 'openctf',
@@ -34,6 +34,7 @@ export const leadership = [
         role: 'Team Leader & Programmer',
         organization: 'Highscool Robotics Team',
         date: '2016 - 2022',
-        description: 'Led a team of 3 across international and national competitions, in Mexico, United Kingdom, Latin America, and the United States. \nWon first palce in the mexican World Educational Robotics (WER) nationals, and first place in the english WER  '
+        description: 'Led a team of 3 across international and national competitions, in Mexico, United Kingdom, Latin America, and the United States. \nWon first palce in the mexican World Educational Robotics (WER) nationals, and first place in the english WER.',
+        image: robotics
     }
 ];
