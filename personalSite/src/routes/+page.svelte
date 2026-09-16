@@ -7,8 +7,11 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Emilio Garcia | Computer Engineer</title>
+<meta
+    name="description"
+    content="Portfolio of Emilio Garcia, a Computer Engineering student focused on embedded systems, software, hardware design, and robotics."
+/>
 </svelte:head>
 
 <section>
