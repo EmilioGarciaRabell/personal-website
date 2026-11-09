@@ -13,7 +13,7 @@ export const leadership = [
         date: 'October 2026',
         description: 'Won 1st place on a 5-person team by developing and pitching Align Buddy, a Mastercard-focused solution for securing agentic purchases through customer preference and permission validation',
                     
-        image: shpeRit
+        image: leadAspire
     },
     {
         id: 'shpe-rit',
