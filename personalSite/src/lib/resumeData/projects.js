@@ -14,25 +14,16 @@ function getProjectImages(folderName) {
 }
 
 export const projects = [
-    {
-        id: 'openctf',
-        title: 'OpenCTF Platform',
-        date: 'May 2026',
-        description: 'An open-source STEM education platform engineered with modern REST API architecture for capture-the-flag learning modules and real-time user scoring.',
-        image: getProjectImages('openCtf')[0],
-        images: getProjectImages('openCtf'),
-        tags: ['FastAPI', 'Svelte', 'Docker', 'REST API'],
-        link: 'https://github.com/0penCTF'
-    },
-    {
-        id: 'spider-robot',
-        title: 'SPIDER Quadruped',
-        date: 'July 2026',
-        description: 'Spatial Perception & Interactive Dynamic Exploration Robot designed for custom multi-sensor integration, digital control logic, and terrain traversal.',
-        image: getProjectImages('spider'),
-        tags: ['C++', 'Embedded Systems', 'ROS2', 'Hardware'],
-        link: 'https://github.com/EmilioGarciaRabell/SHPE_Smart_Mirror'
-    },
+    
+    // {
+    //     id: 'spider-robot',
+    //     title: 'SPIDER Quadruped',
+    //     date: 'July 2026',
+    //     description: 'Spatial Perception & Interactive Dynamic Exploration Robot designed for custom multi-sensor integration, digital control logic, and terrain traversal.',
+    //     image: getProjectImages('spider'),
+    //     tags: ['C++', 'Embedded Systems', 'ROS2', 'Hardware'],
+    //     link: 'https://github.com/EmilioGarciaRabell/SHPE_Smart_Mirror'
+    // },
      {
         id: 'sleeper',
         title: 'Sleeper',
@@ -82,6 +73,16 @@ export const projects = [
         images: getProjectImages('mips'),
         tags: ['VHDL', 'FPGA', 'Computer Architecture'],
         link: 'https://github.com/EmilioGarciaRabell/5_stage_pipelined_MIPS'
-    }   
+    },
+    {
+        id: 'openctf',
+        title: 'OpenCTF Platform',
+        date: 'May 2026',
+        description: 'An open-source STEM education platform engineered with modern REST API architecture for capture-the-flag learning modules and real-time user scoring.',
+        image: getProjectImages('openCtf')[0],
+        images: getProjectImages('openCtf'),
+        tags: ['FastAPI', 'Svelte', 'Docker', 'REST API'],
+        link: 'https://github.com/0penCTF'
+    } 
 
 ];

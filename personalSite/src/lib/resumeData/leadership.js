@@ -3,14 +3,17 @@ import openTeam from '$lib/images/leadership/openteam.jpg';
 import shpeRit from '$lib/images/leadership/shpe-rit.jpeg';
 import technopunch from '$lib/images/leadership/technopunch.jpg';
 import robotics from '$lib/images/leadership/robotics.jpg';
+import leadAspire from '$lib/images/leadership/lead-aspire.jpeg';
+
 export const leadership = [
     {
-        id: 'openctf',
-        role: 'Co-Founder, Technical & Business Developer',
-        organization: 'Bernard Kozel Startup Program at RIT',
-        date: 'May 2026 – August 2026',
-        description: 'Selected among 7 teams to receive funding and mentorship to develop OpenCTF, succesfully co-leading a team of 5, and completing 80+ customer interviews to validate the product-market fit of the product.',
-        image: openTeam
+        id: 'LEAD',
+        role: 'Team Member',
+        organization: 'LEAD ASPIRE',
+        date: 'October 2026',
+        description: 'Won 1st place on a 5-person team by developing and pitching Align Buddy, a Mastercard-focused solution for securing agentic purchases through customer preference and permission validation',
+                    
+        image: shpeRit
     },
     {
         id: 'shpe-rit',
@@ -28,6 +31,14 @@ export const leadership = [
         date: 'January 2020 - August 2022',
         description: 'Founded Technopunch Academy, providing hands-on education in programming and project development using Python, Arduino, and 3D printing, offering technical and problem solving skills to every student. \nMentored over 15 students, guiding them through technical projects and helping them understand the concepts involved.',
         image: technopunch
+    },
+    {
+        id: 'openctf',
+        role: 'Co-Founder, Technical & Business Developer',
+        organization: 'Bernard Kozel Startup Program at RIT',
+        date: 'May 2026 – August 2026',
+        description: 'Selected among 7 teams to receive funding and mentorship to develop OpenCTF, succesfully co-leading a team of 5, and completing 80+ customer interviews to validate the product-market fit of the product.',
+        image: openTeam
     },
     {
         id: 'robotics',

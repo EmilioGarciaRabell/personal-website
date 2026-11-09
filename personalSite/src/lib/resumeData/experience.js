@@ -1,17 +1,7 @@
 // src/lib/data/experiences.js
 export const experiences = [
 
-    {
-        id: 'OpenCTF',
-        title: 'Cofounder & Developer',
-        company: 'OpenCTF',
-        location: 'Rochester, NY',
-        date: 'May 2026 – Present',
-        description: [
-            'Co-founded an open-source STEM education platform that helps professors quickly set up engaging challenges related to their coursework for students to compete and solve.',
-            'Engineered a lightweight backend REST API utilizing Bun and Hono to maximize request processing speeds.'
-        ]
-    },
+    
     {
         id: 'dirs-lab',
         title: 'Research Assistant',
@@ -19,8 +9,8 @@ export const experiences = [
         location: 'Rochester, NY',
         date: 'May 2026 – Present',
         description: [
-            ' Optimized low-level C++ networking logic and infrastructure for a spectral goniometer system on Linux, deploying Docker to upgrade TCP/IP streams, eliminate software vulnerabilities, and reliably automate precise measurements.'
-            
+            'Develop and optimize low-level C++ networking for a Linux-based spectral goniometer, improving TCP/IP communication and measurement reliability.',
+            'Use Docker to standardize the software environment and support automated, precise measurements.'
         ]
     },
     {
@@ -30,9 +20,8 @@ export const experiences = [
         location: 'Boston, MA',
         date: 'July 2025 – December 2025',
         description: [
-            'Engineered a full-stack web application (Flask + React) creating a RAG system with LLMs to parse manufacturing data and recommend error root causes, accelerating failure analysis throughput by 60%.',
-            'Automated manufacturing failure identification by building Python diagnostic scripts integrated into the CI pipeline, bridging firmware and quality data to accelerate cross-functional debugging.'
-            
+            'Built a full-stack Flask and React application using retrieval-augmented generation (RAG) to analyze manufacturing data and recommend likely root causes, reducing failure-analysis time by 60%.',
+            'Developed Python diagnostic tools and integrated them into the CI pipeline to connect firmware telemetry with manufacturing quality data and support cross-functional debugging.'
         ]
     },
     {
@@ -42,11 +31,21 @@ export const experiences = [
         location: 'Needham, MA',
         date: 'June 2024 – December 2024',
         description: [
-            'Engineered embedded control software for custom hardware validation rigs, interfacing Arduino and Raspberry Pi microcontrollers with sensor networks to automate real-world environment simulations.',
-            'Programmed data acquisition pipelines in C++ and Python to ingest and analyze multi-sensor telemetry data (force, temperature, acceleration), streamlining hardware performance validation.'
+            'Developed embedded control software for custom hardware-validation rigs, connecting Arduino and Raspberry Pi systems to sensors to automate real-world environment simulations.',
+            'Built C++ and Python data-acquisition pipelines to collect and analyze force, temperature, and acceleration data for hardware performance validation.'
         ]
     },
-
+    {
+        id: 'OpenCTF',
+        title: 'Cofounder & Developer',
+        company: 'OpenCTF',
+        location: 'Rochester, NY',
+        date: 'May 2026 – August 2026',
+        description: [
+            'Co-founded an open-source STEM education platform that helps instructors create course-related challenges for students to solve and compete in.',
+            'Built a lightweight REST API with Bun and Hono to serve the platform.'
+        ]
+    },
     {
         id: 'Novatec Group',
         title: 'Software Engineering Intern',
@@ -54,8 +53,8 @@ export const experiences = [
         location: 'Leon, GTO, Mexico',
         date: 'May 2023 – August 2023',
         description: [
-            'Engineered a real-time data ingestion system in Java to monitor 30 industrial machines simultaneously, processing 5,000+ parameters per machine to fully automate manual status checks.'
-            ]
+            'Built a real-time Java data-ingestion system to monitor 30 industrial machines, processing more than 5,000 parameters per machine and automating manual status checks.'
+        ]
     },
     {
         id: 'family-business',
@@ -64,8 +63,8 @@ export const experiences = [
         location: 'Leon, GTO, Mexico',
         date: '2017 – Present',
         description: [
-            'Supported the family business by managing inventory, coordinating international shipments, and attending to fashion conferences.',
-            'Developed ecomerce sites for the bussines, supporting the online sales and marketing of the products.'
-            ]
+            'Support business operations by managing inventory, coordinating international shipments, and attending fashion conferences.',
+            'Build e-commerce websites to support product sales and online marketing.'
+        ]
     }
 ];

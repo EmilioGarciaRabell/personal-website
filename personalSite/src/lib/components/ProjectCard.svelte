@@ -29,7 +29,7 @@
             <img 
                 src={project.image} 
                 alt={project.title} 
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                class="w-full h-full object-contain transition-opacity group-hover:opacity-90"
             />
         </button>
 
